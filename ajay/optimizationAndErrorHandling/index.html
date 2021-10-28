@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calling C Function from javascript</title>
+  </head>
+  <body>
+    <h1>Calling C Function from javascript</h1>
+    <!-- <p id="js_time" > JS</p> -->
+    <p id="wasm_time" >WASM : Check Console</p>
+
+    <script src="call.js"></script>
+    <script>
+
+    // this function call will through an error because we are trying to access a function which we has'nt been loaded
+    // _callX()
+
+      Module['onRuntimeInitialized'] = () =>{
+        _callX();
+      }
+
+    </script>
+  </body>
+</html>

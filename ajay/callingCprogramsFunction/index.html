@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calling C Function from javascript</title>
+  </head>
+  <body>
+    <h1>Calling C Function from javascript</h1>
+    <!-- <p id="js_time" > JS</p> -->
+    <p id="wasm_time" >WASM : Check Console</p>
+
+    <script src="forLoop.js"></script>
+    <script>
+
+
+      Module['onRuntimeInitialized'] = () =>{
+        const number = 10000000;
+        startTime = performance.now();
+        _wCount(number)
+        console.log("Counts ", number, " in Time:", Math.round(performance.now() - startTime)/1000, " seconds");
+        // console.log("Memory location of string/ char pointer: ", _greetX());
+        // console.log("Content at Memory location ",  _greetX(), " :" , ccall('greetX','string'));
+
+        // Passing argument to function using ccall function
+        console.log("Passing parameter successfull: ", ccall('wCount', 'number', ['number'], [number]));
+
+        // passing string to c function
+        let name = 'Ajay'
+        console.log("Passing String argument: ", ccall('greetX', 'string', ['string'], [name]));
+
+
+        // creating a wrap to greet function to make call simplified
+        const wGreet = cwrap('greetX', 'string', ['string']);
+
+        console.log("After wrapping with cwrap: ", wGreet(' kumar')); //hello Ajay Kumar because ajay were passed previously
+      }
+
+
+    </script>
+  </body>
+</html>
