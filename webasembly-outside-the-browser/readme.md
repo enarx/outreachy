@@ -13,11 +13,11 @@ Wasmtime is a standalone wasm-only optimizing runtime for WebAssembly and WASI. 
 
 Using WebAssembly means using the right tool for the job. For instance, who wants to write a banking app in JS?. If you're running anything that relies on mathematical numerical accuracy or speed that meant, until now, another AJAX call to have another language do alllllllll the math. With WebAssembly, we can do this in the browser, with, say, Rust.
 
-Speed: for scripting languages like python and php, webassembly can hep you ge near native speed performance without he hassle of compiling a naive extension.
+Speed: for scripting languages like python and php, webassembly can help you get near native speed performance without the hassle of compiling a naive extension.
 
 Lightweight Sandboxing: for low level languages like c/c++ and rust, webassembly can give you light weight sandboxing where the module cant access memory or resources unless they have been directly given to it, this makes reusing codes more secure.
 
-For both scripting and low level languages, webassemble allows you to reuse code from any language without haing to rewrite it to a language of your choice.
+For both scripting and low level languages, webassembly allows you to reuse code from any language without hassle of rewriting it to a language of your choice.
 
 ## Environment setup
 
