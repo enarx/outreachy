@@ -90,7 +90,8 @@ println!("Type \"quit\" to end the program");
 }
 
 ````
-Given an input integer, the program prints out its fibonacci, the program continues to run in a loop until user enters ```quit``` to stop the program.
+
+Given an input integer, the program prints out its fibonacci, the program continues to run in a loop until user enters "quit" to stop the program.
 
 We can run the application again using:
 
