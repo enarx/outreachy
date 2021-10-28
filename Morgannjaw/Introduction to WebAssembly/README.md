@@ -45,3 +45,9 @@ For example, in the code above.
 ## Why would we want to run WebAssembly outside of a browser?
 
 The main advantages of running WebAssembly outside the browser is that it provides system level access without compromising on security of its host. This is done through WASI (the Web Assembly System Interface). WASI is a collection of C-like functions that provide access to functionality such as ```fd_read, rand, fd_write```, threads (WIP), in a safe way.
+
+### References: 
+
+1. Fullstack Labs. Luis Hernandez [What is WebAssembly And What is it Used for?](https://www.fullstacklabs.co/blog/what-is-webassembly)
+2.	Eric Elliot, “What is web assembly?” [What is WebAssembly - The dawn of a new Era](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6) June 19 2015.
+3. The PragKevin Hoffman, “ Programming WebAssembly with Rust”, March 5 2019.
