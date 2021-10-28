@@ -7,6 +7,7 @@ It is designed to work across silicon architectures transparently to the user so
 
 Enarx is CPU-architecture independent, letting developers deploy the same application code transparently across multiple targets. It provides a single run-time and attestation framework which is hardware vendor and CSP neutral.
 
+A Trusted Execution Environment (TEE) is an environment for executing code, in which those executing the code can have high levels of trust in the asset management of that surrounding environment because it can ignore threats from the “unknown” rest of the device. 
 
 ### reference:
 https://enarx.dev/
