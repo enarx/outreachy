@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>webassemble with C</title>
+    <script src="add.js"></script>
+
+    <script>
+        function run_ws() {
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+
+            a = Math.floor(parseFloat(a));
+            b = Math.floor(parseFloat(b));
+
+            ret = Module._add(a, b);
+            console.log(`${a} + ${b} = ${ret}`);
+
+            var r = document.getElementById("ret");
+            r.innerText = ret
+        }
+    </script>
+  </head>
+  
+  <body>
+    <h1>Hello C + WASM</h1>
+    <div style="display: inline-block;">
+        <input id="a" type="number" />
+        <label>+</label>
+        <input id="b" type="number" />
+        <button id="run_button" onclick="run_ws()">=</button>
+        <label id="ret"></label>
+    </div>
+  </body>
+</html>
+
+
