@@ -23,7 +23,7 @@ Secure and anonymous analytics on multiple data sets
 Detect or develop cure for diseases in the healthcare industry
 
 
-###MAJOR players
+### MAJOR PLAYERS IN THE INDUSTRY
 
 **RED HAT ENARX:**
 
@@ -34,7 +34,7 @@ Detect or develop cure for diseases in the healthcare industry
 
 
 
-###References:
+### References:
 https://www.fortanix.com/products/confidential-computing-manager/what-is-confidential-computing/
 
 
