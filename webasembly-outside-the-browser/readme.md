@@ -47,13 +47,12 @@ We can run the application using:
 
 ```bash
 cargo run
-``
+```
 
 Use you preferred IDE / editor, create `main.rs` file inside the `src` folder.
 add the following:
 
-```
-
+```bash
 use std::io;
 
 fn fibonacci(n: u32) -> u32 {
@@ -61,9 +60,8 @@ match n {
 0 => 0,
 1 => 1,
 \_ => fibonacci(n - 1) + fibonacci(n - 2),
-}
-}
-
+    }
+ }
 fn main() {
 println!("Fibonacci generator");
 println!("Type \"quit\" to end the program");
@@ -89,7 +87,7 @@ println!("Type \"quit\" to end the program");
 
 }
 
-````
+```
 
 Given an input integer, the program prints out its fibonacci, the program continues to run in a loop until user enters "quit" to stop the program.
 
@@ -97,7 +95,7 @@ We can run the application again using:
 
 ```bash
 cargo run
-````
+```
 
 We will create the WebAssembly module using the following command:
 
