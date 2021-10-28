@@ -1,1 +1,0 @@
-/home/jnyfah/Documents/Repo/outreachy/webasembly-outside-the-browser/fibonacci/target/wasm32-wasi/debug/fibonacci.wasm: /home/jnyfah/Documents/Repo/outreachy/webasembly-outside-the-browser/fibonacci/src/main.rs
