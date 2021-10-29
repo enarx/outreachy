@@ -112,14 +112,20 @@ The steps to install Emscripten are as such:
 
 - To Compile C/C++ programs </br>
   ```
-  emcc hello.c -s WASM=1 -o hello.html    
+  emcc hello.c -s WASM=1 -o hello.html  
+  ```
+  </br>
+  ```  
   em++ hello.cpp -s WASM=1 -o hello.html    
   ```
 
 - For only  wasm file </br>
   ```
   emcc hello.c -s STANDALONE_WASM
-  em++ hello.cpp -s STANDALONE_WASM
+  ```
+  </br>
+  ```
+  em++ hello.cpp -s STANDALONE_WASM
   ```
 ## Serving compiled code
 There are many way to serve custom or default generated `html` page using Emscripten
@@ -141,4 +147,7 @@ Start a server using node server
 
 - [optimization and error handling](./optimizationAndErrorHandling)
 
-- [Wasm for None-browser (Wasm outside browser) i.e. Running WASM in Terminal]()
+> As we  know WebAssembly is portable and secured, so here are some  examples based on portability and security.
+
+- [Wasm for None-browser (Wasm outside browser) i.e. Running WASM in Terminal](./nowBrowser)
+  - [Performance Time](./nowBrowser/performanceTime.c) for portability check</br>
