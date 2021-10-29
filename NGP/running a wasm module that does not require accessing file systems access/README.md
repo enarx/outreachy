@@ -3,7 +3,7 @@
 In this tutorial i will be compiling C programs that do not require access to file system to WASM and executing the WebAssembly module using wasmtime runtime. this execution is completely sand box since the program does not interact with external module.
 the c program prints hello world ten times alongside a count value.
 
-##SETTING UP DEVELOPMENT ENVIROMENT
+## SETTING UP DEVELOPMENT ENVIROMENT
 follow this tutorial to setup your development enviroment if you have not done so.
 
 ## Compiling to .WASM
@@ -13,13 +13,15 @@ open terminal and type in the following command.
     
 here specify the directory path to the source and destination file
 
-   ~/wasi-sdk-12.0/bin/clang ~/outreachy/enarx/demo/'new p'/hello.c --sysroot ~/wasi-sdk-12.0/share/wasi-sysroot/ -o ~/outreachy/enarx/demo/'new p'/hello.wasm
+    ~/wasi-sdk-12.0/bin/clang ~/outreachy/enarx/demo/'new p'/hello.c --sysroot ~/wasi-sdk-12.0/share/wasi-sysroot/ -o ~/outreachy/enarx/demo/'new p'/hello.wasm
     
 the directory now contains .wasm as shown below:
+![image](https://user-images.githubusercontent.com/42975388/139480142-3a0d7561-99e4-4229-a0ec-cdab717a88c1.png)
 
 
 #### Executing in wasmtime runtime
 to run the webassembly module:
+
     wasmtime hello.wasm
     
 result:  
@@ -38,9 +40,4 @@ result:
     
 the sceenshot is shown below:
 
-![image](https://user-images.githubusercontent.com/42975388/139064974-468ec883-9648-44df-93ef-c468cc659cf8.png)
-
-
-## MY Reference:
-
-
+![image](https://user-images.githubusercontent.com/42975388/139480355-e31586e5-b4cd-4f61-8585-5f6f1420d098.png)
