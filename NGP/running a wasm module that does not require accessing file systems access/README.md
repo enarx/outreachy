@@ -3,8 +3,9 @@
 In this tutorial i will be compiling C programs that do not require access to file system to WASM and executing the WebAssembly module using wasmtime runtime. this execution is completely sand box since the program does not interact with external module.
 the c program prints hello world ten times alongside a count value.
 
-## SETTING UP DEVELOPMENT ENVIROMENT
-follow this tutorial to setup your development enviroment if you have not done so.
+## Setting up enviroment
+[Follow this tutorial to setup your development enviroment](https://github.com/paulnwoko/outreachy/tree/main/NGP/Setting%20up%20development%20enviroment%20for%20compiling%20and%20running%20wasm)
+
 
 ## Compiling to .WASM
 open terminal and type in the following command. 
