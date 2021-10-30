@@ -1,8 +1,6 @@
 
 # Enarx and Webassembly
 
-![](https://depth-first.com/images/posts/20200707/summary.png)  |  ![](https://aliceevebob.files.wordpress.com/2019/05/enarx.png)
-
 Enarx in summary is a deployment framework for running applications in Trusted Execution Enviroments (TEE). while web assembly is a compilation target that provides a way to compile codes written in diffrent languages into a binary form that can be run in a predefined space e.g web-browsers.
 
 ## So why exactly did Enarx choose to use webassembly ???
