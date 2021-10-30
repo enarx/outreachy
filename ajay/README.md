@@ -150,4 +150,8 @@ Start a server using node server
 > As we  know WebAssembly is portable and secured, so here are some  examples based on portability and security.
 
 - [Wasm for None-browser (Wasm outside browser) i.e. Running WASM in Terminal](./nowBrowser)
-  - [Performance Time](./nowBrowser/performanceTime.c) for portability check</br>
+  -  [C Examples](./nowBrowser/cWasm)
+    - [Performance Time](./nowBrowser/cWasm/performanceTime.c) for portability check</br>
+    A program to calculate total time taken to count 1M.
+  - [Rust Examples](./nowBrowser/rustWasm)
+    - [Simple Hello Program](./nowBrowser/rustWasm/hello)

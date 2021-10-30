@@ -51,5 +51,8 @@ wasmer run test.wasm
 
 ### Examples
 
-- [Performance Time](./performanceTime.c) for portability check</br>
+-  [C Examples](./cWasm)
+  - [Performance Time](./cWasm/performanceTime.c) for portability check</br>
   A program to calculate total time taken to count 1M.
+- [Rust Examples](./rustWasm)
+  - [Simple Hello Program](./rustWasm/hello)
