@@ -56,3 +56,4 @@ wasmer run test.wasm
   A program to calculate total time taken to count 1M.
 - [Rust Examples](./rustWasm)
   - [Simple Hello Program](./rustWasm/hello)
+  - [Markdown Parser](./rustWasm/markdown_parser)
