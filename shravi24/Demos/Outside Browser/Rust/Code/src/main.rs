@@ -1,11 +1,3 @@
-extern crate wasm_bindgen;
-use wasm_bindgen::prelude::*;
-
-#[wasm_bindgen]
-pub fn helloworld() -> String {
-    String::from("Hello World From Rust!")
-}
-/*
 use std::env;
 use std::fs;
 use std::io::{Read, Write};
@@ -38,4 +30,3 @@ fn main() {
         eprintln!("{}", err)
     }
 }
-*/
