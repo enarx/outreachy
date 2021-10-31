@@ -3,10 +3,7 @@
 In this tutorial i will be compiling C programs to WASI and executing the compiled WebAssembly module using wasmtime runtime.
 
 ## Setting up enviroment
-Upstream Clang and LLVM (from 9.0 onwards) can compile for WASI out of the box, and WebAssembly support is included in them by default. 
-
-#### Download and install clang : 
-    sudo apt install clang
+[Follow this tutorial to setup your development enviroment](https://github.com/paulnwoko/outreachy/tree/main/NGP/Setting%20up%20development%20enviroment%20for%20compiling%20and%20running%20wasm)
 
 
 ## Compiling to .WASM
@@ -24,22 +21,6 @@ here specify the directory path to the source and destination file
     
 After running the above comand a .wasm file was generated in the /home/ngp/outreachy/enarx/demo/'c-cpp to wasm outside browser'/ directory as show below
 ![image](https://user-images.githubusercontent.com/42975388/139062884-eadd5875-7eed-4bea-ad19-531ca2017786.png)
-
-
-## To run the wasm file
-
-First Install wasmtime if not already installed in your machine. 
-The wasmtime is a wasm runtime enviroment
-The easiest way to install the wasmtime CLI tool is through our installation script. Linux and macOS users can execute the following:
-    
-    curl https://wasmtime.dev/install.sh -sSf | bash
-
-This will download a precompiled version of wasmtime and place it in $HOME/.wasmtime, and update your shell configuration to place the right directory in PATH.
-You can confirm your installation works by executing:
-
-    wasmtime -V
-    
-    wasmtime 0.12.0
 
 
 #### Executing in wasmtime runtime
@@ -83,7 +64,6 @@ the directory now contains all the generated files (.wasm, and .txt files) as sh
 
 
 ## MY Reference:
-I followed this tutorial https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md#executing-in-wasmtime-runtime
+[I followed this tutorial](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md#executing-in-wasmtime-runtime)
 The c source i'm working with is also from there.
-
 

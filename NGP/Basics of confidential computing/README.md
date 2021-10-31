@@ -24,7 +24,7 @@ Implication: Organizations can now run sensitive applications and data on untrus
 
 ### MAJOR PLAYERS IN THE INDUSTRY
 
-**RED HAT ENARX:**
+**Enarx:**
 
 **INTEL SGX:**
 
