@@ -1,7 +1,9 @@
-### Basic Example – Web assembly Using Rust.  
+# Basic Example – Web assembly Using Rust.  
 
 For this tutorial we are going to use MacOS, Visual Studio Code ( or any text editor of your choice) and of course,  Rust. So we will need to install Rust from its [official website](https://www.rust-lang.org/tools/install).We will also make use of the Clone the [GitHub Repository](https://github.com/WebAssembly/wabt/blob/main/README.md) as the  code makes use of the ```../fundamentals/add``` file. 
  I recommend using  VsCode as your text editor and you’ll install some tools on your machine that will allow you to compile and interprete WebAssembly modules. These tools include:
+ 
+ ## Prerequisites.
 
 ####	WebAssembly Binary Toolkit (WABT)
 
@@ -15,6 +17,10 @@ The WebAssembly Binary Toolkit (pronounced “wabbit”) is a general-purpose se
 #### Cargo.
 
 If you don’t have cargo installed follow [this link](https://doc.rust-lang.org/cargo/getting-started/installation.html) to install rust as cargo comes along with it.
+
+#### Wasmtime.
+To run your WebAssembly code out from a browser, you will need a runtime called ```wasmtime```. In Linux distributions and macOS, just run this command, follow the steps and the installations should go well.
+``` curl <https://wasmtime.dev/install.sh> -sSf | bash```
 
 ### Getting Started with Rust.
 
