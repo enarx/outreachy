@@ -46,6 +46,9 @@ For example, in the code above.
 
 The main advantages of running WebAssembly outside the browser is that it provides system level access without compromising on security of its host. This is done through WASI (the Web Assembly System Interface). WASI is a collection of C-like functions that provide access to functionality such as ```fd_read, rand, fd_write```, threads (WIP), in a safe way.In addition, embedding WebAssembly in applications is important for the following reasons. First, WebAssembly provides secure extensibility mechanisms for applications. Second, application and Wasm modules communicate through bi-directional ABI and API. Lastly, WebAssembly allows users to install extensions securely, portably, and in any language.
 
+
+[See Rust Example](./Basic Example of WebAssembly Using Rust)
+
 ### References: 
 
 1. Fullstack Labs. Luis Hernandez [What is WebAssembly And What is it Used for?](https://www.fullstacklabs.co/blog/what-is-webassembly)
