@@ -155,3 +155,4 @@ Start a server using node server
     A program to calculate total time taken to count 1M.
   - [Rust Examples](./nowBrowser/rustWasm)
     - [Simple Hello Program](./nowBrowser/rustWasm/hello)
+    - [Markdown Parser](./nowBrowser/rust/rustWasm/markdown_parser)

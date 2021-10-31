@@ -69,3 +69,7 @@
   wasmtime target/wasm32-wasi/debug/hello.wasm
 
   ```
+
+
+### Other projects
+- [Markdown Parser](./markdown_parser)
