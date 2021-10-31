@@ -12,7 +12,7 @@
 
   
 
-Currently, most browsers use JavaScript Engine that can interpret and execute the code. This along with the day-to-day improvemnets in JavaScript, have made development web apps with very rich features very easy. But JavaScript is still a high-level language which is not particularly developed to be a fast language.
+Currently, most browsers use JavaScript Engine that can interpret and execute the code. This along with the day-to-day improvements in JavaScript, have made development web apps with very rich features very easy. But JavaScript is still a high-level language which is not particularly developed to be a fast language.
 
   
 
