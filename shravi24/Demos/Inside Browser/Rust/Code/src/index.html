@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>"Hello world" in Rust + WebAssembly</title>
+        <base href=".">
+        <script type="module">
+            import init, {helloworld} from '../pkg/hello_world_wasm.js'
+
+            async function run() {
+                await init()
+                document.body.textContent = helloworld()
+            }
+
+            run()
+        </script>
+    </head>
+</html>
