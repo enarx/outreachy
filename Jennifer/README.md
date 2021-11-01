@@ -6,13 +6,18 @@ Enarx in summary is a deployment framework for running applications in Trusted E
 ## So why exactly did Enarx choose to use webassembly ???
 
 - <h5>Platform Portability :</h5>
-Enarx uses WASM to provide a WebAssembly runtime to allow workloads run on whatever platform is available, as webAssembly is not tied to any hardware architecture. workloads can be executed on several different platforms without the need to re-compile. 
+Enarx uses WASM as a portable binary format that provides runtime to allow workloads written in any language such as C/C++, rust, etc., to be executed on TEE without the need to recompile. WASM is usable across environments and is architecture-independent.
+In simple terms, Webassembly allows users to use any language, compile it once to produce one binary file that will just run, securely, in any environment that recognizes WebAssembly
+ 
 
  - <h5>Isolation or Sandboxing :</h5>
- By compiling to wasm, the code is sandboxed, preventing it from accessing anything on the outside e.g., memory. The sandboxed code can’t read or write to anywhere outside it, the sandboxed code can’t do anything but pure computation, unless given a function to call to do things like read from a file, tell the time, etc.
+A WASM module doesn’t have access to APIs and system calls in the OS. If there is a need to interact with anything outside the module, it would  explicitly imported. Enarx uses this feature to protect guests from hosts and also hosts from guests as webassenbly can safely run untrusted codes in a sandbox environment.
 
 
-sources :
+
+
+
+## sources :
 
 [Lin clarks tutorial](https://hacks.mozilla.org/2017/02/a-crash-course-in-assembly/)
 
