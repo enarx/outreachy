@@ -1,7 +1,8 @@
-<h1>Let's do a "Hello world" program in C++ using Emscripten</h1>
+<h1>Let's do a "Hello world" and "Fibonacci Series" program and compile it to WebAssembly</h1>
 
 ## Tool Setup
-For tool setup , refer to C using Emscripten  tutorial.
+For tool setup , [refer to tutorial](https://github.com/enarx/outreachy/tree/main/shravi24/Demos/Inside%20Browser/C)
+<p>&nbsp;</p>
 
 ## Writing Code
  Let’s create a simple C++ code to print Hello World and fibonacci series :
