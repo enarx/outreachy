@@ -11,9 +11,7 @@ In simple terms, Webassembly allows users to use any language, compile it once t
  
 
  - <h5>Isolation or Sandboxing :</h5>
-A WASM module doesn’t have access to APIs and system calls in the OS. If there is a need to interact with anything outside the module, it would  explicitly imported. Enarx uses this feature to protect guests from hosts and also hosts from guests as webassenbly can safely run untrusted codes in a sandbox environment.
-
-
+We all know that Enarx needs to protect guests from hosts, but also hosts from guests. The Wasm virtual machine architecture by default protects the host from the guest, due to the capabilities of the language and specification. WebAssembly module is reactive, it cannot do anything until and unless the host runtime requests it. Secondly, wasm modules don’t have access to the host runtime’s memory; they utilise their own private linear memory space. The Trusted Execution Environments then protects guests from host using the enclaves provided by the CPU, where the data is encrypted.
 
 
 
