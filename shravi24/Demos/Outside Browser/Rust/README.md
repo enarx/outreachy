@@ -1,4 +1,4 @@
-<h1> Let's do a "Hello world" program in Rust using wasm-time </h1>
+<h1> Let's do a "Hello world" program in Rust and executing in wasmtime runtime </h1>
 
 ## Pre-requisites :
 Please ensure that you have installed [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
@@ -33,7 +33,7 @@ edition = "2021"
 [dependencies]
 
 
-[[bin">
+[[bin]]
 path = "src/main.rs"
 name = "main"
 

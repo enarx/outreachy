@@ -1,4 +1,4 @@
-<h1>Let's do a "Hello world" program in C using Emscripten</h1>
+<h1>Let's do a "Hello world" C program and compile it to WebAssembly</h1>
 
 ## Tool Setup
 
