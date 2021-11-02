@@ -7,7 +7,7 @@ Enarx in summary is a deployment framework for running applications in Trusted E
 
 - <h5>Platform Portability :</h5>
 Enarx uses WASM as a portable binary format that provides runtime to allow workloads written in any language such as C/C++, rust, etc., to be executed on TEE without the need to recompile. WASM is usable across environments and is architecture-independent.
-In simple terms, Webassembly allows users to use any language, compile it once to produce one binary file that will just run, securely, in any environment that recognizes WebAssembly
+In simple terms, Webassembly allows users to use any language, compile it once to produce one binary file that will just run securely in any environment that recognizes WebAssembly.
  
 
  - <h5>Isolation or Sandboxing :</h5>
