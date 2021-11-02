@@ -1,7 +1,8 @@
-<h1>Let's do a "Hello world" program in Rust using wasm-pack</h1>
+<h1>Let's do a "Hello world" program in Rust and Compile it into WebAssembly and run using Wasm-pack</h1>
 
 ## Pre-requisites :
 Please ensure that you have installed [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+<p>&nbsp;</p>
 
 ## Tool Setup
 
@@ -14,19 +15,22 @@ You can see like this when you execute above command :
 
 <img src="../../../images/Pasted image 20211031123450.png">
 
+<p>&nbsp;</p>
 
 ## Rust Code
 Let's create a new Rust project for the "Hello world":
 
 ```bash
-cargo new helloworld --lib
+cargo new --lib hello-world-wasm
 ```
+Here my project name is hello-world-wasm
   
- You can refer to below picture :
+You can also refer to below picture :
 
  <img src="../../../images/Pasted image 20211031124526.png">
- 
-On Cargo.toml we are going to add the next:
+
+After above step, if you go to the folder where you have created a Rust project, you can see the files that got created.
+In this step, you can use any IDE of your choice. Here I have used Visual Studio. In visual studio, open your Rust project folder. In Cargo.toml file we are going to add the following
 
 ```rust
 [package]
@@ -63,7 +67,8 @@ pub fn helloworld() -> String {
 
   
   ```
-  
+ <p>&nbsp;</p> 
+ 
 ## Compiling Rust Code
 Let us compile code with:
 
