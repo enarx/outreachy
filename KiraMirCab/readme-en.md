@@ -1,4 +1,4 @@
-*Read this in Spanish language: [English](readme.md).*
+*Read this in [Spanish](readme.md) language*
 
 # Enarx: A Leading Open Source Project in Confidential Computing
 

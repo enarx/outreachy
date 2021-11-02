@@ -1,4 +1,4 @@
-*Read this in english language: [English](readme-en.md).*
+*Read this in [English](readme-en.md) language*
 
 # Enarx: un proyecto líder de código abierto en computación confidencial
 

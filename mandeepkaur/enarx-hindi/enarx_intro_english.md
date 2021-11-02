@@ -1,6 +1,6 @@
-*Read this in Hindi language: [English](enarx_intro_hindi.md).*
+*Read this in [Hindi](enarx_intro_hindi.md) language*
 
-#Enarx: A major open source project for confidential computing
+# Enarx: A major open source project for confidential computing
 
 
 ## Abbreviation
