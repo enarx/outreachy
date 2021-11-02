@@ -2,6 +2,7 @@
 
 - Write C/C++ program
 - Compile program usin command </br>
+
 ```
 emcc hello.c -s WASM=1 -o index.html
 ```
@@ -9,6 +10,7 @@ This will generate three files. A `HTML` file to show our content, `wasm` file w
 
 
 - Serve Emscripten HTML page</br>
+
 ```
 emrun --no_browser --port 8080 index.html
 ```

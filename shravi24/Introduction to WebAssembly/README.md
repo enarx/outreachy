@@ -12,11 +12,11 @@
 
   
 
-Currently, most browsers use JavaScript Engine that can interpret and execute the code. This along with the day-to-day improvemnets in JavaScript, have made development web apps with very rich features very easy. But JavaScript is still a high-level language which is not particularly developed to be a fast language.
+Currently, most browsers use JavaScript Engine that can interpret and execute the code. This along with the day-to-day improvements in JavaScript, have made development web apps with very rich features very easy. But JavaScript is still a high-level language which is not particularly developed to be a fast language.
 
   
 
-This is where WebAssembly or WASM comes into picture. WASM is a relatively novel binary-code format that can be run over the browsers and it is also complemented with WAT file (text file) to make it more readable and debuggable, in addition it can also us to code in kind-of assembly language.
+This is where WebAssembly or WASM comes into picture. WASM is a relatively novel binary-code format that can be run over the browsers and it is also complemented with WAT file (text file) to make it more readable and debuggable, in addition it can also used to code in kind-of assembly language.
 
   
 

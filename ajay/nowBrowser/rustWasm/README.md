@@ -29,7 +29,6 @@
 
   ```
   cargo install cargo-wasi
-
   ```
 
 - ### wasmtime
@@ -39,17 +38,17 @@
 
   ```
   curl https://wasmtime.dev/install.sh -sSf | bash
-
   ```
 
 
  ### Command to create and run a Simple project [Hello](./hello).
 
  - Create a project name `hello`
- ```
- cargo new hello
 
  ```
+ cargo new hello
+ ```
+
  It will create a folder containing a subfolder ` src ` and a ` toml  ` file having project information such as project name, version, dependencies, etc. while  `  src  ` folder have a rust file `  main.rs ` having a function named ` main  ` with a greeting message `Hello, world!` from where execution get started.
 
  - Move inside `hello`
@@ -59,17 +58,18 @@
   ```
 
 - Compile and Run Project `hello`
+
   ```
   cargo wasi run
   ```
+
   This will compile and run the hello project inside of wasp time automatically.
   We can also run it using `wasmtime` like such:
 
   ```
   wasmtime target/wasm32-wasi/debug/hello.wasm
-
   ```
 
-
 ### Other projects
+- [Rust Module](./rust_module)
 - [Markdown Parser](./markdown_parser)

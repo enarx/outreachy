@@ -39,15 +39,16 @@ Wasmer is a WebAssembly runtime having support for system interface `  WASI  `
 
 ### Installation
 To install `Wasmer runtime` run the following command
+
 ```
 curl https://get.wasmer.io -sSfL | sh
 ```
 
 ### Serving `WASM` file
+
 ```
 wasmer run test.wasm
 ```
-
 
 ### Examples
 
@@ -56,4 +57,5 @@ wasmer run test.wasm
   A program to calculate total time taken to count 1M.
 - [Rust Examples](./rustWasm)
   - [Simple Hello Program](./rustWasm/hello)
+  - [Rust Module](./rustWasm/rust_module)
   - [Markdown Parser](./rustWasm/markdown_parser)
