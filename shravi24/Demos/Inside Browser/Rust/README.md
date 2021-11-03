@@ -143,7 +143,7 @@ Now if you go to browser and type in localhost:8080 or http://127.0.0.1:8080/ , 
 
 <p>&nbsp;</p>
 
-After this just click on hello_world-wasm/ and then click on src/ to see the output.
+After this just click on `hello_world-wasm/` and then click on `src/` to see the output.
 
 <p>&nbsp;</p>
 
