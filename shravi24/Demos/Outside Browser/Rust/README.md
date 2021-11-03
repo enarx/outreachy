@@ -2,6 +2,7 @@
 
 ## Pre-requisites :
 Please ensure that you have installed [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+<p>&nbsp;</p>
 
 ## Tool Setup
 
@@ -14,10 +15,18 @@ cargo install wasm-pack
 You can see like this when you execute above command :
 
 <img src="../../../images/Pasted image 20211031123450.png">
+<p>&nbsp;</p>
 
 
 ## Rust Code
 
+First create a new binary crate using below command:
+
+```bash
+cargo new demo
+```
+
+You can use any IDE of your choice and open up this project folder.
  
 On Cargo.toml we are going to add the next:
 
@@ -38,6 +47,7 @@ path = "src/main.rs"
 name = "main"
 
 ```
+<p>&nbsp;</p>
 
 <h2>Writing Rust code</h2>
 

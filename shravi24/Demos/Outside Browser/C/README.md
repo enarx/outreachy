@@ -3,7 +3,8 @@ In this tutorial, We are going to build  calculator using c and compile it to We
 <p>&nbsp;</p>
 
 <h2>Pre-requisites</h2>
-Please ensure the [steps included in toolsetup](https://github.com/enarx/outreachy/tree/main/shravi24/Demos/Outside%20Browser/Rust) are completed.
+
+Please ensure the [steps included in toolsetup](https://github.com/enarx/outreachy/tree/main/shravi24/Demos/Outside%20Browser) included in toolsetup are completed.
 
 In this example I have used Wasmer as runtime.Please make sure you have installed Wasmer at  [link]( https://github.com/enarx/outreachy/tree/main/shravi24/Demos/Outside%20Browser/C/Wasmer).
 
