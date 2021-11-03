@@ -2,7 +2,7 @@
 ## Setting up Development Enviroment
 In this tutorial i will be setting up development enviroment for compiling C programs to WASM and executing the WASM module using wasmtime runtime.
 
-## Download Clang, a C, C++ and rust Compiler.
+## Download Clang, a C/C++ Compiler.
 Upstream Clang and LLVM (from 9.0 onwards) can compile for WASI out of the box, and WebAssembly support is included in them by default. 
 
 #### Download and install clang : 
