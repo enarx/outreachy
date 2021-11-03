@@ -20,8 +20,10 @@ result:
     InstalledDir: /usr/bin
     
 
-## Install wasmtime
+## Install Runtime enviroment:
+you could use either wasmtime or wasmer or other runtime enviroments
 
+#### Install WASMTIME
 The WASMTIME is a wasm runtime enviroment for running web assembly modules. The easiest way to install the wasmtime CLI tool is through our installation script. Linux and macOS users can execute the following:
     
     curl https://wasmtime.dev/install.sh -sSf | bash
@@ -35,9 +37,31 @@ result:
     
     wasmtime 0.12.0
 
+To run a wasm with wasmtime
+    
+    wasmtime <filename>.wasm
+
+    
+#### OR Install WASMER
+WASMER is an open-source runtime for executing WebAssembly on the Server. To install it run the following command on yur terminal
+
+    curl https://get.wasmer.io -sSfL | sh
+    
+To verify your installation:
+    
+    wasmer --version
+result:
+    
+    wasmer 2.0.0
+
+To run a wasm with wasmer
+
+    wasmer run <filename>.wasm
+
+
 
 ## MY Reference:
-https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md#executing-in-wasmtime-runtime
+about wasmtime: https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md#executing-in-wasmtime-runtime
 
-
+about wasmer: https://wasmer.io/
 
