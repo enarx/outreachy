@@ -167,3 +167,7 @@ Start a server using node server
     - [Simple Hello Program](./nowBrowser/rustWasm/hello)
     - [Rust Module](./nowBrowser/rustWasm/rust_module)
     - [Markdown Parser](./nowBrowser/rust/rustWasm/markdown_parser)
+
+> Debugging Web Assembly
+
+- [Debugging](optimizationAndErrorHandling/Debugging)
