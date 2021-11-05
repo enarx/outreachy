@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>WebAssembly Square function</title>
+   </head>
+   <body>
+      <div id="textcontent"></div>
+      <script>
+         let square;
+         fetch("square.wasm").then(bytes => bytes.arrayBuffer())
+            .then(mod => WebAssembly.compile(mod))
+            .then(module => {return new WebAssembly.Instance(module) })
+            .then(instance => {
+            square = instance.exports.square(13);
+            console.log("The square of 13 = " +square);
+            document.getElementById("textcontent").innerHTML = "The square of 13 = " +square;
+         });
+      </script>
+   </body>
+</html>
