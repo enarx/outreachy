@@ -54,8 +54,7 @@ Run your code and provide input to see the result
 ```
 go run main.go
 ```
-<img src="Jennifer/images/Screenshot1.png">
-<p>&nbsp;</p>
+![Alt text](/Jennifer/images/Screenshot1?raw=true)
 
 We will can compile to WASM using the following command:
 ```
@@ -66,5 +65,4 @@ Now let us run the WebAssembly generated using wasmtime
 ```bash
 wasmtime main.wasm
 ```
-<img src="Jennifer/images/Screenshot2.png">
-<p>&nbsp;</p>
+![Alt text](/Jennifer/images/Screenshot2.png?raw=true)
