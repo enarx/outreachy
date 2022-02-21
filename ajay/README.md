@@ -1,3 +1,4 @@
+
 # What is WebAssembly?
 ![Web Assembly](img/webAssembly.png)
 
@@ -19,17 +20,17 @@ WebAssembly is a low-level, assembly-like language with a compact binary format.
 
 <h4> Here are some benefits which shows why we need WebAssembly</h4>
 
-- <h5>WebAssembly is efficient and fast :</h5>
+- <h5>WebAssembly is efficient and fast </h5>
    Wasm bytecode is designed to be encoded in a size and load-time-efficient binary format. WebAssembly aims to execute at native speed by taking advantage of common hardware capabilities available on a wide range of platforms.
 
-- <h5>WebAssembly is safe :</h5>
+- <h5>WebAssembly is safe </h5>
    WebAssembly describes a memory-safe, sandboxed execution environment that may even be implemented inside existing JavaScript virtual machines. When embedded in the web, WebAssembly will enforce the same-origin and permissions security policies of the browser.
 
 
-- <h5>WebAssembly is open and debuggable : </h5>
+- <h5>WebAssembly is open and debuggable </h5>
    WebAssembly is designed to be pretty-printed in a textual format for debugging, testing, experimenting, optimizing, learning, teaching, and writing programs by hand. The textual format will be used when viewing the source of wasm modules on the web.
 
-- <h5>WebAssembly is part of the open web platform : </h5>
+- <h5>WebAssembly is part of the open web platform </h5>
    WebAssembly is designed to maintain the versionless, feature-tested, and backwards-compatible nature of the web. WebAssembly modules will be able to call into and out of the JavaScript context and access browser functionality through the same Web APIs accessible from JavaScript. WebAssembly also supports non-web embeddings.
 
 
@@ -82,61 +83,63 @@ The steps to install Emscripten are as such:
 
 - Clone the repository using command </br>
 
-   ```
-   git clone https://github.com/emscripten-core/emsdk.git
-   ```
+   ```
+   git clone https://github.com/emscripten-core/emsdk.git
+   ```
 - Navigate to the `emsdk` directory </br>
 
-  ```
-  cd emsdk
-  ```
+  ```
+  cd emsdk
+  ```
 - make sure clones repository is updated with remote one: </br>
 
-  ```
-  git pull
-  ```
+  ```
+  git pull
+  ```
 - Install the latest version of Emscripten </br>
 
-  ```
-  ./emsdk install latest
-  ```
+  ```
+  ./emsdk install latest
+  ```
 - Activate the latest version </br>
 
-  ```
-  ./emsdk activate latest
-  ```
+  ```
+  ./emsdk activate latest
+  ```
 - Set the various environmental variables </br>
 
-  ```
-  source ./emsdk_env.sh
-  ```
+  ```
+  source ./emsdk_env.sh
+  ```
 - Check Installation </br>
 
-  ```
-  emcc --version
-  ```
+  ```
+  emcc --version
+  ```
 - To Compile C/C++ programs </br>
 
-  ```
-  emcc hello.c -s WASM=1 -o hello.html  
   ```
+  emcc hello.c -s WASM=1 -o hello.html
+  ```
+
   </br>
 
-  ```  
-  em++ hello.cpp -s WASM=1 -o hello.html    
-  ```
+  ```
+  em++ hello.cpp -s WASM=1 -o hello.html
+  ```
 
-- For only  wasm file </br>
+- For only  wasm file </br>
 
-  ```
-  emcc hello.c -s STANDALONE_WASM
+  ```
+  emcc hello.c -s STANDALONE_WASM
   ```
 
   </br>
 
   ```
   em++ hello.cpp -s STANDALONE_WASM
-  ```
+  ```
+
 ## Serving compiled code
 There are many way to serve custom or default generated `html` page using Emscripten
 - emrun:  </br>
@@ -146,7 +149,7 @@ Start a server using node server
 - Starting own server </br>
   - Starting an Apache server
   - Starting a simple server via command line utility provided in  `Python` i.e. `python -m http.server`
-  - etc.
+  -  etc.
 
 
 ## Examples
@@ -162,8 +165,12 @@ Start a server using node server
 - [Wasm for None-browser (Wasm outside browser) i.e. Running WASM in Terminal](./nowBrowser)
   -  [C Examples](./nowBrowser/cWasm)
     - [Performance Time](./nowBrowser/cWasm/performanceTime.c) for portability check</br>
-    A program to calculate total time taken to count 1M.
+    A program to calculate total time taken to count 1M.
   - [Rust Examples](./nowBrowser/rustWasm)
     - [Simple Hello Program](./nowBrowser/rustWasm/hello)
     - [Rust Module](./nowBrowser/rustWasm/rust_module)
     - [Markdown Parser](./nowBrowser/rust/rustWasm/markdown_parser)
+
+> Debugging Web Assembly
+
+- [Debugging](optimizationAndErrorHandling/Debugging)
