@@ -13,6 +13,7 @@ Go to [go.dev](https://go.dev/) and follow the instructions using rustup.
 #### tinygo
 
 Go to [tinygo.org](https://tinygo.org/getting-started/install/) and follow the instructions using rustup.
+
 please note: tinygo requires go version 1.15 through 1.17
 
 #### Wasmtime
@@ -54,7 +55,7 @@ Run your code and provide input to see the result
 ```
 go run main.go
 ```
-![Alt text](/Jennifer/images/Screenshot1?raw=true)
+![Alt text](/Jennifer/images/Screenshot1.png?raw=true)
 
 We will can compile to WASM using the following command:
 ```
