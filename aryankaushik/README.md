@@ -1,4 +1,4 @@
-#HI Welcome to Aryan's Outreachy Progress
+# HI Welcome to Aryan's Outreachy Progress
 
-##INDEX
-###1. Calling Functions in C
+## INDEX
+### 1. Calling Functions in C
