@@ -2,7 +2,7 @@
 
 ## For Setting Up The Enviornment In Linux 
 
-For Running a Wasm 
+For Running a WebAssembly(Wasm)
 
 ### Install C
 
@@ -21,4 +21,9 @@ Visit [Wasienv](https://github.com/wasienv/wasienv) and follow the documentation
 ### Wasmtime
 ##### Wasmtime is a small and efficient runtime for WebAssembly & WASI.
 Visit [wasmtime.dev](https://wasmtime.dev/) for its installation.
+
+### Run Your first Program
+- [You can run your first program by working on this example which is Hello World written in C](./HelloWorld)
+
+
 
