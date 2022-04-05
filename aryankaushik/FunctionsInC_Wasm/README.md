@@ -23,7 +23,7 @@ Visit [Wasienv](https://github.com/wasienv/wasienv) and follow the documentation
 Visit [wasmtime.dev](https://wasmtime.dev/) for its installation.
 
 ### Run Your first Program
-- [You can run your first program by working on this example which is Hello World written in C](./HelloWorld)
+- [You can run your first program by working on this example which is Hello World written in C](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm/Hello)
 
 
 
