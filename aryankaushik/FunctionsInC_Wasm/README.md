@@ -1,15 +1,15 @@
-## [# WebAssembly](https://webassembly.org/) (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
+[# WebAssembly](https://webassembly.org/) (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
 
 
-![Image description](https://www.wasm.builders/remoteimages/uploads/articles/b729rjnehgef3nb4cisi.png)
+![WebAssembly](https://www.wasm.builders/remoteimages/uploads/articles/b729rjnehgef3nb4cisi.png)
 
 
 
-## Setting Up C and Wasm
+## Setting Up C/Cpp and Wasm
 
 Considering the enviornment in Linux
 
-#### 1. Install C
+#### 1. Install C/Cpp compiler
 `$ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install build-essential
@@ -47,7 +47,7 @@ Libs: -L/Users/syrus/.wasmer/lib -lwasmer
 ```
 curl https://raw.githubusercontent.com/wasienv/wasienv/master/install.sh | sh
 ```
-If you want to compile a C file to a WebAssembly WASI:
+If you want to compile a C/Cpp file to a WebAssembly WASI:
 
 ```
 # To compile to a WebAssembly WASI file
@@ -62,7 +62,7 @@ wasiconfigure ./configure
 # If you are using cmake (or make)
 wasimake cmake .
 ```
-If you want to compile a C file to plain WebAssembly:
+If you want to compile a C/Cpp file to plain WebAssembly:
 
 ```
 # To compile to a WebAssembly file
@@ -86,7 +86,60 @@ curl https://wasmtime.dev/install.sh -sSf | bash
 ```
 
 ### Run Your first Program
+Create a file named `ReverseANo.c` or `ReverseANo.cpp` and write the Program
+
+```
+// Reverse a No.
+
+#include<stdio.h>  
+ int main()    
+{    
+int n, reverse=0, rem;    
+printf("Enter a number: \n");    
+  scanf("%d", &n);    
+  while(n!=0)    
+  {    
+     rem=n%10;    
+     reverse=reverse*10+rem;    
+     n/=10;    
+  }    
+  printf("Reversed Number: %d \n",reverse);    
+return 0;  
+}  
+```
+Compile and run
+
+Now, to generate `.wasm` binary file from the `.c/.cpp` file, we will use `Wasienv`.
+
+For .c
+```
+wasicc ReverseANo.c -o ReBinary.wasm
+```
+For .cpp
+
+```
+wasicc ReverseANo.cpp -o ReBinary.wasm
+```
+
+Neglect the Warnings.
+
+A new `ReBinary.wasm` file will be created.
+
+Now, to execute this file we will use `wasmtime`.
+
+```
+wasmtime ReBinary.wasm 
+```
+
 You can run your first program by working on this example which is [Reverse a Number](https://github.com/enarx/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm/ReverseANo) written in C.
 
+Just change extension to .cpp for C++ programs
+ 
+![Code preview](https://www.wasm.builders/remoteimages/uploads/articles/mhm22axlus92swmedng8.png)
 
-Please Share your ideas and suggestions related to the Blog.
+![Finally](https://www.wasm.builders/remoteimages/uploads/articles/9frtb4uwme9kcw9lgvlw.jpg)
+
+
+Do comment your ideas and suggestions related to the blog and please share if you found it useful.
+Write your queries in comment section, we'll help you to resolve your errors.
+
