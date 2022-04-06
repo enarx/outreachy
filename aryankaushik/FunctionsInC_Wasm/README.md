@@ -1,22 +1,18 @@
 [# WebAssembly](https://webassembly.org/) (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
 
 
-<<<<<<< HEAD
+
 ### Install C
-=======
+
 ![WebAssembly](https://www.wasm.builders/remoteimages/uploads/articles/b729rjnehgef3nb4cisi.png)
 
->>>>>>> 41d55ac975ea4b1dc449e75c675b1b7eee585460
 
-
-<<<<<<< HEAD
 For Running a WebAssembly(Wasm)
 
 ### Install Wasmer
 ##### Wasmer is an open-source runtime for executing WebAssembly on the Server.
-=======
+
 ## Setting Up C/Cpp and Wasm
->>>>>>> 41d55ac975ea4b1dc449e75c675b1b7eee585460
 
 Considering the enviornment in Linux
 
