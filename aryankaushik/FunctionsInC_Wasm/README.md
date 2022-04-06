@@ -86,7 +86,7 @@ curl https://wasmtime.dev/install.sh -sSf | bash
 ```
 
 ### Run Your first Program
-You can run your first program by working on this example which is [Hello World](https://github.com/enarx/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm/Hello) written in C.
+You can run your first program by working on this example which is [Reverse a Number](https://github.com/enarx/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm/ReverseANo) written in C.
 
 
 Please Share your ideas and suggestions related to the Blog.
