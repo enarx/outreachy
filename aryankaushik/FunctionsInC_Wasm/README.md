@@ -148,6 +148,3 @@ Just change extension to .cpp for C++ programs
 ![Finally](https://www.wasm.builders/remoteimages/uploads/articles/9frtb4uwme9kcw9lgvlw.jpg)
 
 
-Do comment your ideas and suggestions related to the blog and please share if you found it useful.
-Write your queries in comment section, we'll help you to resolve your errors.
-
