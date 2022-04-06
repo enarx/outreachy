@@ -17,12 +17,13 @@ For Running a WebAssembly(Wasm)
 Considering the enviornment in Linux
 
 #### 1. Install C/Cpp compiler
-`$ sudo apt-get update
+```
+$ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install build-essential
 $ gcc -v
 $ make -v`
-
+```
 
 #### 2. Install Wasmer
 [Wasmer](https://docs.wasmer.io/integrations/c/setup) is an open-source runtime for executing WebAssembly on the Server.
