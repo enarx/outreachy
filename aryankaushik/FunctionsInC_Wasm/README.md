@@ -2,11 +2,11 @@
 
 ## For Setting Up The Enviornment In Linux 
 
-For Running a WebAssembly(Wasm)
-
 ### Install C
 
 Visit [C Installation](https://help.ubuntu.com/community/InstallingCompilers) and follow the instructions.
+
+For Running a WebAssembly(Wasm)
 
 ### Install Wasmer
 ##### Wasmer is an open-source runtime for executing WebAssembly on the Server.
