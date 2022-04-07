@@ -6,7 +6,7 @@ In this documentation i'll be demonstrating how webassembly is used to compile h
 
 ## Why WebAssembly?
 
-The question instead could have been why not webassembly!
+The question instead could have been why not webassembly!</br>
 WebAssembly (or Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages.
 All major browsers support Wasm. The benefits of WebAssembly include:
 - **Fast, efficient and portable:** WebAssembly code can be executed at near-native speed across different platforms.
