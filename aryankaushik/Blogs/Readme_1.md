@@ -12,7 +12,7 @@ It is a new type of code that can be run in modern web browsers — it is a low-
 Wasm brings the performance of native applications to the web in a way that's completely secure, yet enabling a full functionality expected from games, major applications and the entire spectrum of software you can run on a computer.
 
 > A tweet by **Solomon Hykes**, who is the Founder, Chief Technology Officer and Chief Architect of Docker.
-[Tweet](https://www.wasm.builders/remoteimages/uploads/articles/6zbohxngg1b6ibaxnpcm.png)
+![Tweet](https://www.wasm.builders/remoteimages/uploads/articles/6zbohxngg1b6ibaxnpcm.png)
 
 #### Some Benefits Of Wasm:
 1. It is very fast compared to JavaScript. Because, unlike JavaScript, when the browser runs it, there is no need to compile it since it is compiled at build time.
