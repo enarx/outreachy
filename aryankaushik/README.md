@@ -2,6 +2,6 @@
 
 ## Work done
 ### 1. Calling Functions in C/Cpp
-### 2. C program calling inside a browser
+### 2. Blog: [Calling Functions in C/Cpp](https://www.wasm.builders/aryank21/execting-your-first-c-program-using-webassembly-1co)
 ### 3. Blog: [Webassembly](https://www.wasm.builders/aryank21/what-is-webassembly-and-why-it-is-a-game-changer-4jb7)
-### 4. 
+### 4. C program calling inside a browser
