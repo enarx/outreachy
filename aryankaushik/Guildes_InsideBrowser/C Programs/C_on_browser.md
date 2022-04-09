@@ -136,6 +136,4 @@ References:
 2. https://emscripten.org/docs/getting_started/downloads.html
 3. https://github.com/enarx/outreachy/tree/main/shravi24/Demos/Inside%20Browser/C
 
-Do comment your ideas and suggestions related to the blog and please share if you found it useful.
-Write your queries in comment section, we'll help you to resolve your errors.
 
