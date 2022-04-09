@@ -16,7 +16,7 @@ Wasm brings the performance of native applications to the web in a way that's co
 
 #### Some Benefits Of Wasm:
 1. It is very fast compared to JavaScript. Because, unlike JavaScript, when the browser runs it, there is no need to compile it since it is compiled at build time.
-[Js/Wasm](https://www.wasm.builders/remoteimages/uploads/articles/gvqhmhagtbnvoi9i0xk3.jpeg)
+![Js/Wasm](https://www.wasm.builders/remoteimages/uploads/articles/gvqhmhagtbnvoi9i0xk3.jpeg)
 > Developers right now be like: 
 
 2. The security model of WebAssembly has two important goals:
@@ -25,7 +25,7 @@ b. It provide developers with useful primitives and mitigations for developing s
 3. Wasm is super Light-weight.
 4. Wasm is Open-Source.
 5. Wasm works with all modern architectures, devices, and embedded systems, and doesn't favor one language, programming model, or object model over another. Additionally, it can be implemented on browsers, stand-alone systems, and in other environments.
-[Adaptive](https://www.wasm.builders/remoteimages/uploads/articles/y4genwxa4xq8tfc9yqz3.jpg)
+![Adaptive](https://www.wasm.builders/remoteimages/uploads/articles/y4genwxa4xq8tfc9yqz3.jpg)
 > Wasm has a co-operative nature.
 
 
@@ -44,6 +44,7 @@ and many more!
 
 #### Conclusion:
 Currently Wasm is in its early days. Notwithstanding, many popular programming languages such as C, C++, Rust, Go and C# can already compile their source code into production ready Wasm code.
+
 ![change](https://www.wasm.builders/remoteimages/uploads/articles/rckoo5owe6gp0qnhozx4.jpg)
 
 There are a number of impressive in-browser Wasm applications available today. But there are also Wasm compilers and runtimes that allow Wasm to run outside of the web browser; closer to the hardware.
