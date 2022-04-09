@@ -16,12 +16,14 @@ Wasm brings the performance of native applications to the web in a way that's co
 
 #### Some Benefits Of Wasm:
 1. It is very fast compared to JavaScript. Because, unlike JavaScript, when the browser runs it, there is no need to compile it since it is compiled at build time.
+
 ![Js/Wasm](https://www.wasm.builders/remoteimages/uploads/articles/gvqhmhagtbnvoi9i0xk3.jpeg)
 > Developers right now be like: 
 
 2. The security model of WebAssembly has two important goals:
 a. It protect users from buggy or malicious modules.
 b. It provide developers with useful primitives and mitigations for developing safe applications, within the constraints of (a).
+
 3. Wasm is super Light-weight.
 4. Wasm is Open-Source.
 5. Wasm works with all modern architectures, devices, and embedded systems, and doesn't favor one language, programming model, or object model over another. Additionally, it can be implemented on browsers, stand-alone systems, and in other environments.
