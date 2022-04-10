@@ -1,6 +1,6 @@
 # WebAssembly x Rust, a Deadly Combination!
 
-![WebAssembly x Rust]()
+![WebAssembly x Rust](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/WebAssembly%20(1).gif)
 
 Welcome to Another Blog, Today we will learn about why WebAssembly & Rust is considered a Deadly Combination!
 
