@@ -6,3 +6,4 @@
 ### 3. Blog: [What is WebAssembly and why it is a game changer?](https://www.wasm.builders/aryank21/what-is-webassembly-and-why-it-is-a-game-changer-4jb7)
 ### 4. Practical: [Calling a C program inside a browser](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Guildes_InsideBrowser/C%20Programs)
 ### 5. Blog: [Executing a C/Cpp program to WebAssembly inside Browser.](https://www.wasm.builders/aryank21/executing-a-new-ccpp-program-to-webassembly-inside-browser-1oj3)
+### 6. Blog: [WebAssembly x Rust, a Deadly Combination!](https://www.wasm.builders/aryank21/webassembly-x-rust-a-deadly-combination-1638)
