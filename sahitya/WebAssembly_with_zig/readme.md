@@ -65,4 +65,5 @@ file main.wasm
 ```bash
 wasmtime main.wasm
 ```
+![vmware_2vH0ylY6ne](https://user-images.githubusercontent.com/37513489/162909805-18ce54d0-09a8-477b-abea-7f6c19db97a4.png)
 
