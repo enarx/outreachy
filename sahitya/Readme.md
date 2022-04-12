@@ -1,6 +1,6 @@
 # Hi Welcome to sahitya's Outreachy Contribution Progress
 
-## demo 
+## demos
 
 - WebAssembly with Rust.
 - WebAssembly with zig.
