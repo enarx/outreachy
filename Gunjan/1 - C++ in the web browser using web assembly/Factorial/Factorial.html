@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script type="module">
+      (async() => {
+        const response = await fetch('./factorial.wasm');
+        const bytes = await response.arrayBuffer();
+        const { instance } = await WebAssembly.instantiate(bytes);
+        document.write("<h1>Your factorial is: ", instance.exports.factorial(8), "</h1>");
+      })();
+    </script>
+  </body>
+</html>
