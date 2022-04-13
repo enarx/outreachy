@@ -6,7 +6,7 @@ TO compline this demo, you must install these packages listed below.
 
 Install zig. 
 
-### Install zig on Fedora 34 Using dnf 
+### Install zig on Fedora 35 Using dnf 
 ```bash
 sudo dnf makecache --refresh
 ```
