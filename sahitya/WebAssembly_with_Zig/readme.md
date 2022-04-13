@@ -66,3 +66,4 @@ file main.wasm
 wasmtime main.wasm
 ```
 
+![image](https://user-images.githubusercontent.com/37513489/163274402-f90c4c46-add3-4777-bcec-65b3edb40e75.png)
