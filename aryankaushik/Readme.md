@@ -1,4 +1,4 @@
-# Hi Welcome to Aryan's Outreachy Contribution Progress
+# Hi, Welcome to Aryan's Outreachy Contribution Progress
 
 ## Work done
 ### 1. Practical: [Calling Functions in C/Cpp in Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm)
