@@ -112,6 +112,7 @@ const math  = require('./ary_kaush.js')
 console.log(math.add2numbers(10,20));
 ```
 In VScode
+
 ![8.1](https://www.wasm.builders/remoteimages/uploads/articles/vgtkgklsoiyyhriog34c.png)
 
 #### 9. move in pkg by `cd pkg/` and run 
