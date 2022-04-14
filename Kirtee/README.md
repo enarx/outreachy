@@ -17,5 +17,5 @@ WebAssembly is an exciting technology for deploying highly secure, performant, a
 
 ## contents
 
- - [WebAssembly with Grain]()
- - [WebAssembly with C++]()
+ - [WebAssembly with Grain](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Grain)
+ - [WebAssembly with C++](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20C%20and%20C%2B%2B)
