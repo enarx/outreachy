@@ -3,6 +3,7 @@
 ![1.1](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/WebAssembly_1%20(2).png)
 
 Hi Folks, Welcome to another Blog. Today, we'll learn about how to call a rust program using Wasm.
+
 Getting Started:
 
 #### 1. We need rust and wasm-pack in our system, lets install them:
@@ -131,6 +132,3 @@ This was a basic program in rust, whereas we can create multiple projects e.g. a
 Please check out [blog](https://www.wasm.builders/moksh_pathak/how-i-made-a-calculator-in-rust-and-ran-it-in-an-enarx-keep-part-1-4lic) by @moksh_pathak , where he created a calculator using Rust and ran it in Enarx.
 
 Stay tuned for more stuff!
-
-Do comment your ideas and suggestions related to the blog and please share if you found it useful.
-Write your queries in comment section, we'll help you to resolve your errors.
