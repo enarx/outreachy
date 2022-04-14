@@ -119,8 +119,7 @@ In VScode
 ```
 node index.js
 ```
-![8]
-(https://www.wasm.builders/remoteimages/uploads/articles/nfhc8b4hbgf48inez6cb.png)
+![8](https://www.wasm.builders/remoteimages/uploads/articles/nfhc8b4hbgf48inez6cb.png)
 
 and Finally we have the required output.
 
