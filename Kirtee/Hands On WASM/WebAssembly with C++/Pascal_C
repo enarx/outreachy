@@ -1,0 +1,2 @@
+#!/bin/bash
+wasirun /home/kirtee/Documents/ENARX/outreachy/Kirtee/WebAssembly with C++/Pascal_C.wasm "$@"
