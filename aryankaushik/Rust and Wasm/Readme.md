@@ -1,6 +1,6 @@
 # Calling a Rust program using Wasm
 
-
+![1.1](aryankaushik/media/WebAssembly_1 (2).png)
 
 Hi Folks, Welcome to another Blog. Today, we'll learn about how to call a rust program using Wasm.
 Getting Started:
