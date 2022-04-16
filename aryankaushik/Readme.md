@@ -11,5 +11,5 @@
 ### 7. Practical: [Running Rust with Wasm: Adding Two numbers](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Rust%20and%20Wasm)
 ### 8. Blog:[Calling a Rust program using Wasm](https://www.wasm.builders/aryank21/calling-a-rust-program-using-wasm-2deo)
 ### 9.Practical: [Calling a rust program inside a browser](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Guildes_InsideBrowser/Rust)
-### 10. Practical: [Video to gif convertor using Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/wasm-gif)
+### 10. Practical: [Video to gif convertor using Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Video%20to%20Gif%20converter%20using%20Wasm)
 ### 11. Blog: [Video to gif convertor using Wasm](https://www.wasm.builders/aryank21/gif-creator-using-wasm-27fl)
