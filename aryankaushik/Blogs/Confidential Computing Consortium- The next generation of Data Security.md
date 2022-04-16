@@ -1,5 +1,8 @@
 # Confidential Computing Consortium- The next generation of Data Security
 
+
+![1CCC](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/CCC_Enarx.png?raw=true)
+
 WASM is considered as the third generation of Cloud Computing, and it is expected to boom in the upcoming time therefore Data Security needs an upgrade to keep up.
 
 In previous blogs, we explored the properties & applications of WebAssembly, 
