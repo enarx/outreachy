@@ -13,3 +13,4 @@
 ### 9.Practical: [Calling a rust program inside a browser](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Guildes_InsideBrowser/Rust)
 ### 10. Practical: [Video to gif convertor using Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/Video%20to%20Gif%20converter%20using%20Wasm)
 ### 11. Blog: [Video to gif convertor using Wasm](https://www.wasm.builders/aryank21/gif-creator-using-wasm-27fl)
+### 12. Blog: [Confidential Computing Consortium- The next generation of Data Security](https://www.wasm.builders/aryank21/confidential-computing-consortium-the-next-generation-of-data-security-2gel)
