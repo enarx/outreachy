@@ -3,6 +3,7 @@ It's good to be back with another interesting blog!
 WASM is considered as the third generation of Cloud Computing, and it is expected to boom in the upcoming time therefore Data Security needs an upgrade to keep up.
 
 In previous blogs, we explored the properties & applications of WebAssembly, 
+
 ![CCC](https://www.wasm.builders/remoteimages/uploads/articles/nehtxxtii657ojq3zu0n.png)
  
 But today we're going to learn about CCC (**Confidential Computing Consortium**) is an open-source community powered by The Linux Foundation, which works as the icing on the cake for Wasm. 
