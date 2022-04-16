@@ -1,10 +1,16 @@
 # Video To Gif maker using React with Wasm
 
-#### Convert a video file to an animated GIF with Web Assembly. 
+This Project Converts a video file to an animated GIF with Web Assembly. 
 
-### Clone this repo
 
-### npm start
+#### 1. Clone this repo
+
+#### 2. Start the project
+```
+npm start
+```
+
+This project requires Javascript, keep it enabed. 
 
 Open this app in Live Server or Open http://localhost:8080 to view it in the browser.
 
