@@ -1,6 +1,6 @@
 # Hi, Welcome to Aryan's Outreachy Contribution Progress
 
-## Contribution till the date
+## Contributions Completed
 
 ### 1. Practical: [Calling Functions in C/Cpp in Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm)
 ### 2. Blog: [Calling Functions in C/Cpp in Wasm](https://www.wasm.builders/aryank21/execting-your-first-c-program-using-webassembly-1co)
