@@ -1,0 +1,12 @@
+enum Topping { Cheese, Pepperoni, Peppers, Pineapple }
+enum Order { Pizza(Topping), Calzone(Topping) }
+
+record Person { name: String, order: Order }
+
+let person = { name: "Kirtee", order: Calzone(Pepperoni) }
+
+match (person) {
+  { order: Pizza(_), _ } => print("All pizzas are great here."),
+  { order: Calzone(Peppers), _ } => print("Someone with great taste!"),
+  { order: _, _ } => print("Yep, that's an order.")
+}
