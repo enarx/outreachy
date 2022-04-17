@@ -15,3 +15,4 @@
 ### 11. Blog: [Video to gif convertor using Wasm](https://www.wasm.builders/aryank21/gif-creator-using-wasm-27fl)
 ### 12. Blog: [Confidential Computing Consortium- The next generation of Data Security](https://www.wasm.builders/aryank21/confidential-computing-consortium-the-next-generation-of-data-security-2gel)
 ### 13. Practical: [Image Identifier App using Tensorflow | WasmEdge | Dapr | Docker](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/imgpro_wasm)
+### 14. Blog: [https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/imgpro_wasm](wasm.builders)
