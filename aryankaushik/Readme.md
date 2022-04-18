@@ -16,3 +16,4 @@
 ### 12. Blog: [Confidential Computing Consortium- The next generation of Data Security](https://www.wasm.builders/aryank21/confidential-computing-consortium-the-next-generation-of-data-security-2gel)
 ### 13. Practical: [Image Recognition App- WasmEdge](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/imgpro_wasm)
 ### 14. Blog: [Image Recognition App using Tensorflow | WasmEdge | Dapr | Docker](https://www.wasm.builders/aryank21/image-recognition-app-using-golang-tensorflow-wasmedge-dapr-docker-1el7)
+### 15. Blog: [Why Wasm is the perfect runtime for server-side applications.](https://www.wasm.builders/aryank21/why-wasm-is-the-perfect-runtime-for-server-side-applications-1b9p)
