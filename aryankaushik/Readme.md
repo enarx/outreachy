@@ -2,6 +2,8 @@
 
 ## Contributions Completed
 
+
+
 ### 1. Practical: [Calling Functions in C/Cpp in Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/FunctionsInC_Wasm)
 ### 2. Blog: [Calling Functions in C/Cpp in Wasm](https://www.wasm.builders/aryank21/execting-your-first-c-program-using-webassembly-1co)
 ### 3. Blog: [What is WebAssembly and why it is a game changer?](https://www.wasm.builders/aryank21/what-is-webassembly-and-why-it-is-a-game-changer-4jb7)
@@ -17,3 +19,4 @@
 ### 13. Practical: [Image Recognition App- WasmEdge](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/imgpro_wasm)
 ### 14. Blog: [Image Recognition App using Tensorflow | WasmEdge | Dapr | Docker](https://www.wasm.builders/aryank21/image-recognition-app-using-golang-tensorflow-wasmedge-dapr-docker-1el7)
 ### 15. Blog: [Why Wasm is the perfect runtime for server-side applications.](https://www.wasm.builders/aryank21/why-wasm-is-the-perfect-runtime-for-server-side-applications-1b9p)
+### 16. [Doc: fixed a typo in c lang guide](https://github.com/enarx/enarx.github.io/commit/48d3e1114377267b49e446fdd6b5c9fbd316828c)
