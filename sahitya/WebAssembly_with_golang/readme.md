@@ -80,9 +80,8 @@ Run your code and provide input to see the result
 go run main.go
 ```
 
+![vmware_mhVvRMcZ3R](https://user-images.githubusercontent.com/37513489/163793251-1c40afb9-f54a-4061-9aaf-051b7398ef3c.png)
 
-
-(add picture here)
 
 
 We will can compile to WASM using the following command:
@@ -94,8 +93,8 @@ Now let us run the WebAssembly generated using wasmtime
 ```bash
 wasmtime main.wasm
 ```
+![vmware_VP4bq7gQ0U](https://user-images.githubusercontent.com/37513489/163793280-484d1f78-0f25-4fc5-8895-838e8a0b8101.png)
 
-add pictre here -- 
 
 
 
