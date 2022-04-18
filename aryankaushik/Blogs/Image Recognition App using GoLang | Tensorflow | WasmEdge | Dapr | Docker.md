@@ -1,6 +1,6 @@
 # Image Recognition App using GoLang | Tensorflow | WasmEdge | Dapr | Docker
 
-![1]()
+![1](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/imgid%20(1).gif)
 
 Hi Folks, welcome to another super interesting blog featuring another cool WebAssembly application.
 
