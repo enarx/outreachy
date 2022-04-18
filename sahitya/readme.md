@@ -4,3 +4,4 @@
 
 - WebAssembly with Rust.
 - WebAssembly with zig.
+- WebAssembly_with_golang
