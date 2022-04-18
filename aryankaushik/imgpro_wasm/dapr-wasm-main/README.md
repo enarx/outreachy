@@ -4,11 +4,17 @@
 
 
 #### Small brief about technologies Used:
+
 In order to build microservices, Dapr is a versatile framework. Containers are required to initialise Dapr, here we are using Docker.
+
 A WebAssembly VM, like WasmEdge, provides a secure and high-performance runtime for microservices.
+
 WebAssembly-based microservices can be written in a number of programming languages, including Rust, C/C++, Swift, and JavaScript.
+
 WebAssembly programs are embedded into Dapr sidecar applications and are therefore portable and agnostic to Dapr host environments.
+
 A WasmEdge SDK makes it easy to create Tensorflow inference microservices.
+
 WasmEdge is a Kubernetes compatible runtime and could play an important role as a lightweight container alternative to run microservices.
 
 
