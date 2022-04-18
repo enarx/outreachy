@@ -1,6 +1,6 @@
 # Why Wasm is the perfect runtime for server-side applications.
 
-![1](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/24.png)
+![1](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/24%20(1).png)
 
 Namaskar, welcome to another fantastic blog, previously we've tried to work with wasm on the user/client-side and learned its advantages but today in this blog we will try to understand the broader applications and advantages of Wasm in the tech industry i.e. using it on the server-side, it is much more functional than we've thought.
 
