@@ -60,7 +60,7 @@ References:
 5. https://noti.st/lostinbrittany/hsL7QE
 6. https://webassembly.org/docs/use-cases/
 
-Do comment your thoughts and suggestions related to the blog and please share if you found it useful.
+
 
 
 
