@@ -51,7 +51,6 @@ In a blog written by [Libhunt](https://www.libhunt.com/compare-SSVM-vs-wasmtime)
 Lately in the server-side development community, which is the desire to simplify, and is coming in the form of things like Functions as a Service, or serverless technology. There's AWS Lambda, OpenFaaS the serverless framework, things like that are really designed to make things simpler, again, because things have gotten much more complex in the last 5 or 10 years, with the rise of microservices and whatnot. It's made things more difficult. 
 Wasm can really help with this goal by building these very tightly constrained, highly composable modules from various languages, really whatever you want, and fitting them together into whatever configuration that you need for your application, is pretty compelling.
 
-Check this [Blog](https://www.infoq.com/presentations/wasm-server-api/) by @cohix where he explains Server-Side WASM: Today and Tomorrow!
 
 References:
 1. https://www.infoq.com/presentations/wasm-server-api/
