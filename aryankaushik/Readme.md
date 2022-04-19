@@ -19,4 +19,4 @@
 ### 13. Practical: [Image Recognition App- WasmEdge](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/imgpro_wasm)
 ### 14. Blog: [Image Recognition App using Tensorflow | WasmEdge | Dapr | Docker](https://www.wasm.builders/aryank21/image-recognition-app-using-golang-tensorflow-wasmedge-dapr-docker-1el7)
 ### 15. Blog: [Why Wasm is the perfect runtime for server-side applications.](https://www.wasm.builders/aryank21/why-wasm-is-the-perfect-runtime-for-server-side-applications-1b9p)
-### 16. [Doc: fixed a typo in c lang guide](https://github.com/enarx/enarx.github.io/commit/48d3e1114377267b49e446fdd6b5c9fbd316828c)
+### 16. Fix: [Doc: fixed a typo in c lang guide](https://github.com/enarx/enarx.github.io/commit/48d3e1114377267b49e446fdd6b5c9fbd316828c)
