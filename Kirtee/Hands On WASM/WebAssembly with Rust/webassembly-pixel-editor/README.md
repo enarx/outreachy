@@ -1,3 +1,4 @@
+# Pixel editor with Rust and wasm-bindgen
 ## How to install
 
 ```sh
