@@ -4,3 +4,5 @@
 ### 1. Introduction to WebAssembly
 ### 2. Run python program using WASMTIME
 ### 3. A simple calculator with rust using WASM
+### 4. Compiling BFS in WASM
+### 5. Deep dive into Enarx
