@@ -79,6 +79,7 @@ Machine-verified formal specification: Provides fairly certainty that in whateve
 8. **Streaming execution manner:** Wasm is designed like this and can start executing and getting converted to machine code soon after its first byte gets downloaded.
 
 ## How to implement wasm in web apps?
+
 There are many ways to do that some are mentioned below and a lot are under development.
 
 - **[Emscripten-](https://emscripten.org/docs/introducing_emscripten/index.html)** compiles high-level languages and runs them to browsers, also capable of converting OpenGL to WebGL.
@@ -103,6 +104,7 @@ The binary format `.wasm`  is executed by a virtual machine that works **alongsi
 
 - .wasm is designed to execute in a sandboxed environment and it adheres to the same security constraints as JavaScript does in the browser. 
 
+## asm.js before .wasm
 - Before WebAssembly, C++ code could be run in the browser by cross-compiling it to a subset of JavaScript known as asm.js.
  
 > The **asm.js** subset is basically JavaScript where you can only use numbers (no strings, objects, etc.). This is all you need to run C++ code since everything in C++ is either a number or a pointer to a number, and pointers are also numbers. The C++ address space is just a giant JavaScript array of numbers and pointers are just indices in that array.
