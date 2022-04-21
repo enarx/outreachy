@@ -1,10 +1,15 @@
+# Rust Wasm Bindgen
+
 ## Introduction to [Wasm-bindgen](https://blog.knoldus.com/wasm-bindgen-making-rust-and-javascript-interoperability-easy/#:~:text=wasm%2Dbindgen%20is%20a%20tool,maintaining%20Rust's%20strict%20sharing%20rules.)
 
 **Rust wasm module run using JavaScript.** is considered to be a complicated procedure to simplify it, the tool wasm-bindgen is created.
 
 ## The goal of wasm-bindgen is to enhance the "ABI" of wasm modules with richer types.
 
-> wasm-bindgen allows Rust to see JavaScript classes, expose and invoke callbacks in either language, send strings as function parameters, and return complex values, all while maintaining Rust’s strict sharing rules and the same goes for JavaScript. 
+> - wasm-bindgen allows Rust to see JavaScript classes, expose and invoke callbacks in either language, 
+> - Send strings as function parameters, and return complex values,
+
+All while maintaining Rust’s strict sharing rules and the same goes for JavaScript. 
 
 - wasm-bindgen injects some metadata into compiled WebAssembly module.
 
@@ -18,6 +23,7 @@
 ```
 $ rustup target add wasm32-unknown-unknown
 ```
+
 ### 2. Installing wasm-bindgen
 **Install rustup nightly**, and webassembly bindgen command line tool here we are specifically calling it from the nightly branch of rust.
 ```
@@ -64,7 +70,7 @@ use wasm_bindgen::prelude::*;
 The application is going to have two main points
 extern block and a block below it. 
 
-> **extern block: ** it allows us to define a bunch of function and object definitions of the items that exist inside of the JavaScript that we are interfacing with
+> **extern block:**  it allows us to define a bunch of function and object definitions of the items that exist inside of the JavaScript that we are interfacing with
 
 ### Alert function:
 
@@ -245,5 +251,13 @@ So this is what the demo gonna look like.
  
 ![Image description](https://www.wasm.builders/remoteimages/uploads/articles/e5a45vtf0su0bhetdzmt.png)
 
-Reference: https://rustwasm.github.io/docs/wasm-bindgen/introduction.html
- 
+Reference: 
+1. **[The `wasm-bindgen` Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html)**
+
+2. **[Rust wasm Github Guide](https://github.com/rustwasm/wasm-bindgen)**
+
+3 . **[web-sys: DOM hello world](https://rustwasm.github.io/wasm-bindgen/examples/dom.html)**
+
+4. **[Converting WebAssembly to JS](https://rustwasm.github.io/wasm-bindgen/examples/wasm2js.html)**
+
+[Github Source code](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust/Rust_wasm_bindgen)
