@@ -1,6 +1,6 @@
 # Hi, Welcome to Aryan's Outreachy Contribution Progress
 
-## Contributions Completed
+## Here's the list of Contributions Completed
 
 
 
@@ -22,3 +22,4 @@
 ### 16. Fix: [Doc: fixed a typo in c lang guide](https://github.com/enarx/enarx.github.io/commit/48d3e1114377267b49e446fdd6b5c9fbd316828c)
 ### 17. Practical: [Building Tic Tac Toe Game in Cpp using Wasm](https://github.com/aryankaushik-git/outreachy/tree/main/aryankaushik/tic_tac_toe)
 ### 18. Blog: [Building Tic Tac Toe Game in Cpp using Wasm](https://www.wasm.builders/aryank21/building-tic-tac-toe-game-in-cpp-using-wasm-1l5g)
+### 19. Blog: [Enarx: The future of Trusted Execution Environment Frameworks](https://www.wasm.builders/aryank21/enarx-the-future-of-trusted-execution-enviornment-framworks-4cd6)
