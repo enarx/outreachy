@@ -1,4 +1,4 @@
-# Enarx: The future of Trusted Execution Enviornment Framworks
+# Enarx: The future of Trusted Execution Environment Frameworks
 
 ![1](https://github.com/aryankaushik-git/outreachy/blob/main/aryankaushik/media/Enarx%20(1).png)
 
