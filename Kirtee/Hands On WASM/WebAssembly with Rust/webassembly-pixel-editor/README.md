@@ -478,6 +478,7 @@ npm run build
 ## References 
 
 1. **[Tutorial: Conway's Game of Life](https://rustwasm.github.io/book/game-of-life/introduction.html)**
+2. **[Rust Wasm Game of life](https://github.com/rustwasm/wasm_game_of_life)**
 
 **[Github Source code](https://github.com/sarik/webassembly-pixel-editor)** 
 ###### I made some changes in `src/lib.rs` and `.html` folders you will get same results with the codes pasted above.
