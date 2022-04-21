@@ -1,0 +1,11 @@
+{
+  "name": "ary-kaush",
+  "version": "0.1.0",
+  "files": [
+    "ary_kaush_bg.wasm",
+    "ary_kaush.js",
+    "ary_kaush.d.ts"
+  ],
+  "main": "ary_kaush.js",
+  "types": "ary_kaush.d.ts"
+}
