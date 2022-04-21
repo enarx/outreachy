@@ -252,11 +252,12 @@ So this is what the demo gonna look like.
 ![Image description](https://www.wasm.builders/remoteimages/uploads/articles/e5a45vtf0su0bhetdzmt.png)
 
 Reference: 
+
 1. **[The `wasm-bindgen` Guide](https://rustwasm.github.io/docs/wasm-bindgen/introduction.html)**
 
 2. **[Rust wasm Github Guide](https://github.com/rustwasm/wasm-bindgen)**
 
-3 . **[web-sys: DOM hello world](https://rustwasm.github.io/wasm-bindgen/examples/dom.html)**
+3. **[web-sys: DOM hello world](https://rustwasm.github.io/wasm-bindgen/examples/dom.html)**
 
 4. **[Converting WebAssembly to JS](https://rustwasm.github.io/wasm-bindgen/examples/wasm2js.html)**
 
