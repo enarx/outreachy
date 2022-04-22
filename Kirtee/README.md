@@ -16,6 +16,12 @@ All major browsers support Wasm. The benefits of WebAssembly include:
 WebAssembly is an exciting technology for deploying highly secure, performant, and portable code.
 
 ## contents
+### Understanding WASM
+ - [WebAssembly: New Capability to Web](https://github.com/kirteeprajapati/outreachy/blob/main/Kirtee/Understanding%20WASM/WebAssembly:%20New%20Capability%20to%20Web.md)
+ - [Webassembly JavaScript Inter-Operability](https://github.com/kirteeprajapati/outreachy/blob/main/Kirtee/Understanding%20WASM/Webassembly%20JavaScript%20Inter-Operability.md)
 
+### Hands On Wasm
  - [WebAssembly with Grain](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Grain)
  - [WebAssembly with C++](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20C%20and%20C%2B%2B)
+ - [WebAssembly Emscripten C and C++ on browser](#).
+ - [WebAssembly with RUST](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust) 
