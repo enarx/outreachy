@@ -24,6 +24,6 @@ WebAssembly is an exciting technology for deploying highly secure, performant, a
  - [WebAssembly with Grain](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Grain)
  - [WebAssembly with C++](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20C%20and%20C%2B%2B)
  - [WebAssembly Emscripten C and C++ on browser](#).
- - [WebAssembly with RUST](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust) 
-     -[Rust with Wasm-bindgen Intro]()
-     -[Rust with Wasm-Bindgen Example]()
+ - [WebAssembly with RUST](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust) </br>
+     -[Rust with Wasm-bindgen Intro]()</br>
+     -[Rust with Wasm-Bindgen Example]()</br>
