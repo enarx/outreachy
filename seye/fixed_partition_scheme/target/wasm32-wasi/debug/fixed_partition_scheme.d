@@ -1,1 +1,0 @@
-/home/daliseiy/Documents/opensource/outreachy/seye/fixed_partition_scheme/target/wasm32-wasi/debug/fixed_partition_scheme.wasm: /home/daliseiy/Documents/opensource/outreachy/seye/fixed_partition_scheme/src/main.rs
