@@ -1,17 +1,16 @@
-// Simple Program to Check Entered Number is Even or Odd
-
 package main
-
 import "fmt"
-
 func main(){
-    fmt.Print("Enter number : ")
-    var n int
-    fmt.Scanln(&n)
-
-    if(n%2==0){
-        fmt.Println(n,"is an Even number")
-    }else{
-        fmt.Println(n,"is Odd number")
-    }
+   var n int
+   fmt.Print("Enter a number: ")
+   fmt.Scanf("%d", &n)
+   for i:=0; i<=n; i++{
+      for j:=0; j<n-i; j++{
+         fmt.Printf(" ")
+      }
+      for k:=0; k<i; k++{
+      fmt.Printf("*")
+   }
+   fmt.Println()
+}
 }
