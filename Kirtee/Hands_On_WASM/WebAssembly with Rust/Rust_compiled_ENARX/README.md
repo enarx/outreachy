@@ -1,7 +1,8 @@
 # Rust Compiled with Enarx
 
 ## Introduction
-- With reference of [Enarx Docs](https://enarx.dev/docs/Start/Enarx), 
+With reference of: 
+- [Enarx Docs](https://enarx.dev/docs/Start/Enarx), 
 - The [Blog: Announcing Enarx](https://aliceevebob.com/2019/05/07/announcing-enarx/) by AUTHORS Mike Bursell and Yuki Kubota
 - And Youtube Video: [Enarx for Confidential Computing - DevConf.CZ 2021](https://youtu.be/kheJFhljEck)
 
@@ -188,8 +189,5 @@ So am working with `backend=kvm target`
 You got the same out put then what happened in the backend you didn't got that right..? 
 I'll be posting about that too soon on the basis of my understanding from the references mentioned above.
 
-
-
-
-
+References:
 

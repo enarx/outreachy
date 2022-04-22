@@ -16,11 +16,18 @@ All major browsers support Wasm. The benefits of WebAssembly include:
 WebAssembly is an exciting technology for deploying highly secure, performant, and portable code.
 
 ## contents
-Understanding WASM
+### Understanding WASM
  - [WebAssembly: New Capability to Web](https://github.com/kirteeprajapati/outreachy/blob/main/Kirtee/Understanding%20WASM/WebAssembly:%20New%20Capability%20to%20Web.md)
  - [Webassembly JavaScript Inter-Operability](https://github.com/kirteeprajapati/outreachy/blob/main/Kirtee/Understanding%20WASM/Webassembly%20JavaScript%20Inter-Operability.md)
-Hands On Wasm
+
+### Hands On Wasm
  - [WebAssembly with Grain](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Grain)
  - [WebAssembly with C++](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20C%20and%20C%2B%2B)
- - [WebAssembly with RUST](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust)
- 
+ - [WebAssembly Emscripten C and C++ on browser](#).
+ - [WebAssembly with RUST](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands%20On%20WASM/WebAssembly%20with%20Rust) </br>
+     1. [Rust with Wasm-bindgen Intro]()</br>
+     2. [Rust with Wasm-Bindgen Example]()</br>
+ - [WebAssembly with Go](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands_On_WASM/WebAssembly%20with%20GO)</br>
+     1. [On Browser Implementation with DOM Access](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands_On_WASM/WebAssembly%20with%20GO/On%20Browser)</br>
+     2. [Outside Browser Implementation](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands_On_WASM/WebAssembly%20with%20GO/Ouside%20Browser)</br>
+ - [WebAssembly with JavasSript](https://github.com/kirteeprajapati/outreachy/tree/main/Kirtee/Hands_On_WASM/WebAssembly%20with%20JavaScript)</br>

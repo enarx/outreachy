@@ -242,3 +242,7 @@ wasmtime Pascal_C.wasm
 Regardless of the Warning, you'll be getting your Tree printed.
 Hope you enjoyed it compiling with wasmenv is as simple as with GCC only requirement is to set up your environment that too for once.
 [Git repo for codes and their generated outputs](https://github.com/enarx/outreachy/tree/main/Kirtee) 
+       
+## References:
+       - https://emscripten.org/docs/getting_started/Tutorial.html
+       - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
