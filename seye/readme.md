@@ -1,6 +1,6 @@
 # WASM  Setup Guide for C++
 
-This tutorial assumes the user is running Ubuntu or a Debian based distibution as their primary OS, despite this commands for non-debian distros are provided.
+This tutorial assumes the user is running Ubuntu or a Debian based distibution as their primary OS, despite this,  commands for non-debian distros are provided.
 
 ## Step 1 - Install the GCC compiler for C++
 
@@ -22,7 +22,7 @@ alternatively we can also install the compiler directly with
 
 ## Step 2 - Install Additional packages.
 
-We are going to be installing wasmer, wasienv so we might need some extra dependencies to be installed before running installing them.
+We are going to be installing wasmer and wasienv which means we might need some extra dependencies to be installed before running we can them.
 
 - Debian/Ubuntu
 
@@ -80,3 +80,5 @@ Now that we are done setting up, we can move to some tutorials to see how c++ pr
 
 ## Step 4 - Run your first program on wasm
 - [You can run your first program by working on this example which is an insertion sort technique written in C++](./insertionSort)
+- [Check if a number is prime with Go.](./go-prime)
+

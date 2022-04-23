@@ -1,1 +1,6 @@
 links
+
+# Generated files
+/target
+
+Cargo.lock
